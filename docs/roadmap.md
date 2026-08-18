@@ -13,11 +13,11 @@
 
 ## Phase 1 — first pure validators
 
-- [ ] Projectile validation using Multiplicity typed packet data.
+- [x] Extract packet-only projectile validation from Bouncer.
 - [ ] Item validation.
 - [x] Player HP/mana stat validation.
 - [ ] Additional player state validation.
-- [ ] Coordinate/range primitives.
+- [ ] Coordinate/range primitives shared by world-interaction validators.
 
 ## Phase 2 — world interaction
 

@@ -21,13 +21,23 @@ Candidates:
 
 ## Projectile
 
-Candidates:
+Implemented from the packet-only portion of the existing TShock Bouncer logic:
 
-- ownership
-- identity/index validity
-- allowed update/kill ownership
-- position/range sanity
-- spawn/update field sanity
+- reject non-finite position values;
+- reject non-finite velocity values;
+- reject damage above the configured maximum unless the caller supplies an exemption;
+- preserve the existing projectile-type-specific AI0/AI1 ranges.
+
+The following Bouncer behavior deliberately remains in TShockNG because it requires live server state or enforcement policy:
+
+- projectile bans and player permissions;
+- held-item/direction checks;
+- projectile count/rate thresholds;
+- active projectile/world lookups;
+- recent projectile/fuse tracking;
+- hostile-projectile tables;
+- portal-gun active bolt state;
+- kick/disable/correction/network side effects.
 
 ## Item
 
