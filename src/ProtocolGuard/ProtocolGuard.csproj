@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>TShockNG.ProtocolGuard</RootNamespace>
+    <AssemblyName>TShockNG.ProtocolGuard</AssemblyName>
+    <Version>0.1.0</Version>
+    <PackageId>TShockNG.ProtocolGuard</PackageId>
+    <Authors>TShockNG Contributors</Authors>
+    <Description>Side-effect-free Terraria protocol validation primitives for TShockNG.</Description>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>
