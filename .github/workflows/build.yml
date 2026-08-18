@@ -29,10 +29,13 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Restore
-        run: dotnet restore src/ProtocolGuard/ProtocolGuard.csproj
+        run: dotnet restore tests/ProtocolGuard.Tests/ProtocolGuard.Tests.csproj
 
       - name: Build
-        run: dotnet build src/ProtocolGuard/ProtocolGuard.csproj --configuration Release --no-restore
+        run: dotnet build tests/ProtocolGuard.Tests/ProtocolGuard.Tests.csproj --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test tests/ProtocolGuard.Tests/ProtocolGuard.Tests.csproj --configuration Release --no-build --verbosity normal
 
       - name: Pack
         run: dotnet pack src/ProtocolGuard/ProtocolGuard.csproj --configuration Release --no-build --output artifacts

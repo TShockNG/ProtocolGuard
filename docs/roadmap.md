@@ -3,12 +3,13 @@
 ## Phase 0 — foundations
 
 - [x] Create .NET 9 project structure.
-- [x] Reference `TZ.Multiplicity` through NuGet.
+- [x] Reference the currently published `TZ.Multiplicity` package through NuGet.
 - [x] Define `ValidationDecision`.
 - [x] Define allocation-conscious `ValidationResult`.
 - [x] Define the initial violation code/category model.
-- [ ] Add unit tests for migrated validators.
-- [x] Establish cross-platform build CI.
+- [x] Add unit tests for the first migrated validators.
+- [x] Establish cross-platform build/test CI.
+- [ ] Upgrade `TZ.Multiplicity` from `2.5.1` to the protocol-319 package when that package is published.
 
 ## Phase 1 — first pure validators
 
