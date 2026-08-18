@@ -4,10 +4,17 @@ This file records rule ownership as validation is extracted from TShock.
 
 ## Player
 
+Implemented:
+
+- HP synchronization: reject non-positive current/max HP and configured maximum HP violations.
+- Mana synchronization: reject negative current/max mana and configured maximum mana violations.
+
+The initial rules deliberately preserve current TShock semantics. In particular, the HP rule treats zero HP as invalid while the mana rule permits zero mana.
+
 Candidates:
 
 - movement/state sanity
-- HP/mana limits
+- packet player-index ownership checks
 - PvP/team/zones state sanity
 - inventory/equipment state sanity
 - interaction range checks

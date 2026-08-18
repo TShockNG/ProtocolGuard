@@ -14,7 +14,8 @@
 
 - [ ] Projectile validation using Multiplicity typed packet data.
 - [ ] Item validation.
-- [ ] Player stat/state validation.
+- [x] Player HP/mana stat validation.
+- [ ] Additional player state validation.
 - [ ] Coordinate/range primitives.
 
 ## Phase 2 — world interaction
