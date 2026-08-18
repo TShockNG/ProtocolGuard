@@ -9,7 +9,7 @@
 - [x] Define the initial violation code/category model.
 - [x] Add unit tests for the first migrated validators.
 - [x] Establish cross-platform build/test CI.
-- [ ] Upgrade `TZ.Multiplicity` from `2.5.1` to the protocol-319 package when that package is published.
+- [x] Upgrade `TZ.Multiplicity` to `2.6.0` for Terraria protocol 319.
 
 ## Phase 1 — first pure validators
 
