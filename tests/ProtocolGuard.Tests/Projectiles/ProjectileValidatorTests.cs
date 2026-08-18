@@ -1,4 +1,5 @@
 using System.Text;
+using Multiplicity.Packets;
 using Multiplicity.Packets.Views;
 using NUnit.Framework;
 using TShockNG.ProtocolGuard.Projectiles;
