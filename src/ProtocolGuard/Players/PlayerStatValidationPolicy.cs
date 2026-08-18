@@ -5,4 +5,4 @@ namespace TShockNG.ProtocolGuard.Players;
 /// </summary>
 /// <param name="Maximum">Maximum allowed value.</param>
 /// <param name="IgnoreMaximum">Whether the sender is exempt from the configured maximum.</param>
-public readonly record struct PlayerStatValidationPolicy(short Maximum, bool IgnoreMaximum = false);
+public readonly record struct PlayerStatValidationPolicy(int Maximum, bool IgnoreMaximum = false);
