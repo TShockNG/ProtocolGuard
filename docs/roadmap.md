@@ -3,6 +3,7 @@
 ## Phase 0 — foundations
 
 - [x] Create .NET 9 project structure.
+- [x] Reference `TZ.Multiplicity` through NuGet.
 - [x] Define `ValidationDecision`.
 - [x] Define allocation-conscious `ValidationResult`.
 - [x] Define the initial violation code/category model.
@@ -11,7 +12,7 @@
 
 ## Phase 1 — first pure validators
 
-- [ ] Projectile validation.
+- [ ] Projectile validation using Multiplicity typed packet data.
 - [ ] Item validation.
 - [ ] Player stat/state validation.
 - [ ] Coordinate/range primitives.

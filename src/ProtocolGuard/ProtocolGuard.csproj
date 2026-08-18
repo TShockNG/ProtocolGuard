@@ -10,4 +10,8 @@
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TZ.Multiplicity" Version="2.6.0" />
+  </ItemGroup>
 </Project>

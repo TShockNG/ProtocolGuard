@@ -8,11 +8,17 @@ ProtocolGuard answers one question:
 
 It does not decide how TShockNG should punish, correct, message, log, or disconnect a player.
 
+## Protocol dependency
+
+ProtocolGuard consumes typed Terraria packet models/views from the pinned `TZ.Multiplicity` NuGet package.
+
+Multiplicity owns wire-format knowledge. ProtocolGuard owns semantic validation. ProtocolGuard must not reimplement packet binary layouts.
+
 ## Inputs
 
 A validator receives:
 
-1. typed packet/action data;
+1. typed packet/action data from Multiplicity;
 2. immutable validation context/snapshot;
 3. validation policy/options where required.
 
